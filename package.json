@@ -1,5 +1,5 @@
 {
-  "name": "random-name-generator",
+  "name": "starwars-names-mb",
   "version": "1.0.0",
   "description": "Generates random names given a JSON file",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrbarbasa/random-name-generator.git"
+    "url": "git+https://github.com/mrbarbasa/starwars-names-mb.git"
   },
   "keywords": [
     "random",
@@ -18,9 +18,9 @@
   "author": "Marifel Barbasa <mrbarbasa@gmail.com> (https://github.com/mrbarbasa)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrbarbasa/random-name-generator/issues"
+    "url": "https://github.com/mrbarbasa/starwars-names-mb/issues"
   },
-  "homepage": "https://github.com/mrbarbasa/random-name-generator#readme",
+  "homepage": "https://github.com/mrbarbasa/starwars-names-mb#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   }
