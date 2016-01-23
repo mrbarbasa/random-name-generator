@@ -1,0 +1,27 @@
+{
+  "name": "random-name-generator",
+  "version": "1.0.0",
+  "description": "Generates random names given a JSON file",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrbarbasa/random-name-generator.git"
+  },
+  "keywords": [
+    "random",
+    "name",
+    "generator"
+  ],
+  "author": "Marifel Barbasa <mrbarbasa@gmail.com> (https://github.com/mrbarbasa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrbarbasa/random-name-generator/issues"
+  },
+  "homepage": "https://github.com/mrbarbasa/random-name-generator#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
