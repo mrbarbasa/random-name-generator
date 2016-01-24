@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "mocha src/index.spec.js -w"
+    "test": "mocha src/index.spec.js -w",
+    "test:single": "mocha src/index.spec.js"
   },
   "repository": {
     "type": "git",
@@ -29,11 +30,15 @@
     "chai": "3.4.1",
     "commitizen": "2.5.0",
     "cz-conventional-changelog": "1.1.5",
+    "ghooks": "1.0.3",
     "mocha": "2.3.4"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "pre-commit": "npm run test:single"
     }
   }
 }
