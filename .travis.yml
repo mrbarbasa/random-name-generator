@@ -13,5 +13,6 @@ before_script:
   - npm prune
 script:
   - npm run test:single
+  - npm run check-coverage
 after_success: # Will not run if tests fail
 #   - npm run semantic-release
